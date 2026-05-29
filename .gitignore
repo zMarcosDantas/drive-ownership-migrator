@@ -1,0 +1,8 @@
+credentials.json
+token.json
+token_old_owner.json
+token_new_owner.json
+*.jsonl
+*.json
+__pycache__/
+backup/

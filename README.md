@@ -22,6 +22,15 @@ inside the same folders, and deeply nested folder trees.
 > simulation, and start with a folder of ~10 items before going full
 > scale.
 
+## Why?
+
+The conventional way to migrate a Google Drive between two accounts is
+to use Google's transfer tool or download everything locally and re-upload
+it under the new account. Both require enough free local disk to cache
+every file — for a 1 TB drive, that's 1 TB of free local storage. I
+didn't have it. This script transfers ownership in place, without ever
+downloading a single byte.
+
 ## What problem does this solve?
 
 Google Drive's ownership-transfer API has two gotchas:
